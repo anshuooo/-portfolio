@@ -15,21 +15,23 @@ const Projects: React.FC = () => {
       demo: "https://demo.com"
     },
     {
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates and team collaboration features.",
-      image: "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      tags: ["React", "Node.js", "Socket.io", "MongoDB"],
+      title: "real estate app",
+      description: "A real estate application with property listings, user authentication, and a responsive design.",
+      image: "https://images.pexels.com/photos/3184290/pexels-photo-3184290.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      tags: ["React", "Node.js", "MongoDB", "Express"],
       github: "https://github.com",
       demo: "https://demo.com"
     },
+      
     {
-      title: "Social Media Dashboard",
-      description: "A responsive dashboard for social media analytics with interactive charts and data visualization.",
-      image: "https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      tags: ["React", "D3.js", "Node.js", "Express"],
+      title: "learning management system",
+      description: "An online learning platform with course management, user authentication, and interactive quizzes.",
+      image: "https://images.pexels.com/photos/3184290/pexels-photo-3184290.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      tags: ["React", "Node.js", "MongoDB", "Express"],
       github: "https://github.com",
       demo: "https://demo.com"
-    }
+    },
+      
   ];
 
   return (

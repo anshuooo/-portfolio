@@ -70,7 +70,7 @@ const Home: React.FC = () => {
               <div className="absolute inset-4 rounded-full bg-gradient-to-br from-primary-500/40 to-secondary-500/40 animate-spin-slow" style={{ animationDirection: 'reverse' }} />
               <div className="absolute inset-8 rounded-full overflow-hidden bg-white shadow-lg">
   <img
-    src="/anshu photo.jpg"
+    src="/anshu photo.png"
     alt="My Profile"
     className="w-full h-full object-cover rounded-full"
   />

@@ -14,40 +14,51 @@ const About: React.FC = () => {
             className="page-heading text-center"
           />
           
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
-            <motion.div
-              initial={{ opacity: 0, x: -20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.5 }}
-            >
-              <h2 className="text-2xl font-bold mb-6 text-primary-600 dark:text-primary-400">
-                MERN Stack Developer & UI/UX Enthusiast
-              </h2>
-              <div className="space-y-4 text-gray-600 dark:text-gray-300">
-                <p>
-                  Hello! I'm Anshu, a passionate MERN Stack Developer with a keen eye for creating 
-                  beautiful and functional web applications. With expertise in MongoDB, Express.js, 
-                  React, and Node.js, I bring ideas to life through clean code and intuitive design.
-                </p>
-                <p>
-                  My journey in web development started with a curiosity for creating interactive 
-                  experiences. Today, I combine technical expertise with creative problem-solving 
-                  to deliver solutions that make a difference.
-                </p>
-              </div>
-            </motion.div>
-            
-            <motion.div
-              initial={{ opacity: 0, x: 20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.5, delay: 0.2 }}
-              className="relative"
-            >
-              <div className="aspect-square rounded-2xl overflow-hidden bg-gradient-to-br from-primary-500/20 to-secondary-500/20 flex items-center justify-center">
-                <span className="text-6xl">👨‍💻</span>
-              </div>
-            </motion.div>
-          </div>
+         
+<div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
+  <motion.div
+    initial={{ opacity: 0, x: -20 }}
+    animate={{ opacity: 1, x: 0 }}
+    transition={{ duration: 0.5 }}
+  >
+    <h2 className="text-2xl font-bold mb-6 text-primary-600 dark:text-primary-400">
+      Application Developer & UI/UX Enthusiast
+    </h2>
+    <div className="space-y-4 text-gray-600 dark:text-gray-300">
+      <p>
+        Hello! I'm Anshu, an Application Developer with a strong command over building 
+        full-stack web applications using the MERN stack — MongoDB, Express.js, React, 
+        and Node.js. I specialize in developing user-friendly, scalable, and efficient 
+        applications that deliver real value. 
+        From designing intuitive frontends to building robust backends, I bring complete end-to-end solutions to life.
+      </p>
+      <p>
+        My journey in web development started with a curiosity for creating interactive 
+        experiences. Today, I combine technical expertise with creative problem-solving 
+        to deliver solutions that make a difference.
+      </p>
+    </div>
+  </motion.div>
+
+  <motion.div
+    initial={{ opacity: 0, x: 20 }}
+    animate={{ opacity: 1, x: 0 }}
+    transition={{ duration: 0.5, delay: 0.2 }}
+    className="relative flex justify-center"
+  >
+    <div className="w-42 h-42 md:w-54 md:h-54aspect-square rounded-2xl overflow-hidden bg-gradient-to-br from-primary-500/20 to-secondary-500/20 flex items-center justify-center">
+      <img
+        src="/mern.jpg"
+        alt="MERN Stack"
+        className="w-38 h-38 md:w-50 md:h-50 object-cover rounded-xl shadow-lg"
+        loading="lazy"
+      />
+    </div>
+  </motion.div>
+</div>
+
+
+          
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
